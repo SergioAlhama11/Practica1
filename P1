@@ -1,0 +1,138 @@
+# **Ingeniería del Software**
+## 1. Introducción a Git, Markdown y Eclipse
+
+
+Antonio Manuel Durán Rosal
+
+
+Asignatura "Ingeniería del Software"
+
+
+
+2º Curso Grado en Ingeniería Informática
+
+
+
+Escuela Politécnica Superior
+
+
+
+(Universidad de Córdoba)
+
+
+
+aduran@uco.es
+
+
+18 de septiembre de 2018
+
+# Contenidos |
+
+1.Git.
+
+	1.1. Introducción
+
+	1.2 Instalación y configuración
+
+	1.3. Uso Básico.
+
+	1.4. Ramas.
+
+	1.5. Github
+
+2.Markdown.
+
+	2.1. Introducción
+
+	2.2. Código
+
+3.Eclipse.
+
+	3.1. Introducción
+	3.2. Instalación.
+
+4.Recursos.
+
+# Evaluación
+* Las entregas en moodle se realizarán por medio del representate o líder de cada grupo.
+* Se debe entregar en moodle la dirección del repositorio de Github.
+* Se evaluará la realización de un pequeño tutorial de Github con los contenidos aprendidos durante las dos primeras sesiones prácticas. El lenguaje de formateado será *Markdown*.
+
+# Motivación
+* Código efímero.
+* Necesidad de mantener todas las versiones del código fuente.
+* Problemas en organizaciones para mantener el código actualizado.
+* Coherencia de versiones.
+* Conocimiento del cambio que ha provocado que el sistema no funcione.
+* Fallos en el disco duro que suponen riesgo de información desactualizada.
+* Satisfacer el compromiso de entrega.
+
+# Git y GitHub
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-c1NtMrCDPse9KTv8qfJil6PYbcmlCXargG42OIgUPF6qlV25Q) : sistema para el control distribuido de versiones de código. Fundamentalmente permite:
+* Dar seguimiento a los cambios realizados sobre un archivo.
+* Almacenar una copia de los cambios.
+
+
+![](https://studyguide.itu.dk/~/media/studyguide/student-life/facilities-at-itu/it-facilities/github/github_logo.png?h=248&w=573&la=en) : sitio web dónde podemos subir una copia de nuestro repositorio *Git*.
+
+# Ventajas
+## Git
+* Habilidad de deshacer cambios.
+* Historial y documentación de cambios.
+* Múltiples versiones de código.
+* Habilidad de resolver conflictos entre versiones de distintos programadores.
+* Copias independientes.
+### GitHub
+* Documentación de requerimientos.
+* Ver el avance del desarrollo.
+
+# Instalación
+* Para instalar Git: *https://git-scm.com*
+* En el curso se utilizará *Git* a través de líneas de comandos.
+* Para *eclipse* existen *plugins* integrados: *https://www.eclipse.org/egit*
+
+# Configuración básica
+Nombre del administrador:
+
+`git config --global user.name "Antonio M. Durán Rosal"`
+
+Correo electrónico:
+
+`git config --global user.email aduran@uco.es`
+
+Editor de texto:
+
+`git config --global core.editor "gedit"`
+
+Color de la interfaz:
+
+`git config --global color.ui true`
+
+Listado de la configuración:
+
+`git config --list`
+
+# Los tres estados de *Git*
+![](https://i.stack.imgur.com/zLTpo.png)
+
+# Comandos básicos |
+
+Iniciar repositorio en un directorio:
+
+`git init`
+
+Agregar cambios al area de *staging*:
+
+`git add`
+
+Validar cambios en el repositorio:
+
+`git commit -m "Mensaje"`
+
+Hacer los dos pasos anteriores en uno:
+
+`git commit -am "Mensaje"`
+
+Historial de commits:
+
+`git log`
