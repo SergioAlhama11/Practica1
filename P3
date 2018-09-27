@@ -1,0 +1,131 @@
+# GitHub no es Git
+![](https://solanch96.files.wordpress.com/2017/06/github.gif?w=500&h=236&crop=1)
+
+# Comandos GitHub |
+Añadir repositorio remoto:
+
+`git remote add origin url`
+
+Ver repositorios remotos:
+
+`git remote -v`
+
+Eliminar repositorio remoto:
+
+`git remote rm origin`
+
+Añadir cambios del repositorio local al remoto:
+
+`git push -u origin master`
+
+Añadir cambios del repositorio remoto al local:
+
+`git pull`
+
+# Comandos GitHub ||
+Ver *branches* remotos:
+
+`git branch -r`
+
+Ver todos los *branches*:
+
+`git branch -a`
+
+Clonar un repositorio remoto:
+
+`git clone url`
+
+# Dar seguimiento a *branches* remotos
+* LOCAL --> REMOTO
+1. Cambios en el repositorio local.
+2. Commit de los cambios.
+3. Añadir cambios a repositorio remoto:
+
+`git push`
+
+* REMOTO --> LOCAL
+1. Sincronización y unión:
+
+`git fetch origin`
+
+`git merge origin/master`
+
+2. En un solo paso:
+
+`git pull`
+
+# Operaciones con *branches* remotos
+* Creación
+
+1. Crear *branch* local.
+2. Hacer cambios en dicho *branch*.
+3. Hacer *commit*.
+4. Copiar el *branch* al repositorio remoto:
+
+`git push -u origin branch_remoto`
+
+* Copia
+
+`git checkout -b local remoto`
+
+* Elimninación
+
+`git push origin --delete branch_remoto`
+
+# Lenguaje de *Markdown*
+* Markdown es un lenguaje de etiquetado ligero que simplifica la elaboracion de documentos.
+* Se ideo pensando en una herramienta para escribir paginas web en un texto simple facil de leer.
+* Actualmente, se utiliza para documentar software ya que al ser texto plano puede entrar dentro de cualquier sistema de control de versiones e incluye muchas extensiones para colorear código fuente en distintos lenguajes.
+
+# Sintaxis |
+
+|Formato  |Sintaxis  |
+|----------|----------|
+|Negrita|**Texto en negrita**|
+|Cursiva|*Texto en cursiva*|
+|Lista con viñetas|1. Primera línea 2. Segunda línea|
+|Lista anidada|	* Primer nivel * Segundo nivel|
+|Encabezados (hasta 6 niveles)|# Encabezado primer nivel ## Encabezado segundo nivel ### Encabezado nivel tres|
+|Citas en bloque|> Las citas en bloque deben comenzar y terminar con una línea en blanco|
+
+# Sintaxis ||
+
+|Formato  |Sintaxis  |
+|----------|----------|
+|Código en línea|`Esto es código de línea`|
+|Bloques de código|~~~ Ejemplo de bloque ~~~|
+|Imágenes|![Texto alternativo](url/imagen.png)|
+|Vínculos|[Texto del vínculo](url)|
+|Imágenes con vínculos|[![Texto alternativo](imagen)](url)|
+|Línea horizontal|- - - (Salto de línea antes y después)|
+|Salto de línea|&nbsp (Dos saltos de línea antes)|
+
+# Eclipse
+
+Eclipse es un entorno integrado de desarrollo (IDE).
+* Se diseñó inicialmente como IDE para Java, sin embargo ahora soporta otros lenguajes como C++.
+* Ayuda a escribir código más rápido y libre de algunos errores sintácticos, y ayuda a mantener un estilo de programación homogéneo.
+* Facilita la depuración de código.
+* Hay una gran documentación.
+
+# Instalación
+* Utilizaremos eclipse para C++.
+
+[Eclipse para C++](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-cc-developers)
+
+* Para eclipse existen *puglins* integrados con git
+
+[https://www.eclipse.org/egit](https://www.eclipse.org/egit/)
+
+ # Recursos
+Recursos Git:
+* [Guía sencilla de Git](http://rogerdudler.github.io/git-guide/index.es.html)
+* [Pro Git book](https://git-scm.com/book/en/v2)
+
+Recursos Markdown:
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Guía en castellano extendida](https://joedicastro.com/pages/markdown.html)
+
+Recursos Eclipse:
+* En las aulas se puede cargar con la orden eclipse3.3
+* [Eclipse para C++](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-cc-developers)
