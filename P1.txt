@@ -115,7 +115,7 @@ Listado de la configuración:
 # Los tres estados de *Git*
 ![](https://i.stack.imgur.com/zLTpo.png)
 
-# Comandos básicos |
+# Comandos básicos I
 
 Iniciar repositorio en un directorio:
 
@@ -133,6 +133,6 @@ Hacer los dos pasos anteriores en uno:
 
 `git commit -am "Mensaje"`
 
-Historial de commits:
+Historial de *commits*:
 
 `git log`
