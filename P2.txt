@@ -1,18 +1,18 @@
-# Comandos básicos ||
+# Comandos básicos II
 
 Ayuda del listado anterior:
 
 `git help log`
 
-Listas los 5 commits más recientes:
+Listas los 5 *commits* más recientes:
 
 `git log -n 5`
 
-Listar los commits desde una fecha:
+Listar los *commits* desde una fecha:
 
 `git log --since=2018-09-18`
 
-Listar los commits por autor:
+Listar los *commits* por autor:
 
 `git log --author="Antonio"`
 
@@ -20,13 +20,13 @@ Ver cambios en el directorio:
 
 `git status`
 
-# Comandos básicos |||
+# Comandos básicos III
 
 Ver diferencia entre ficheros en el directorio y el repositorio de git:
 
 `git diff`
 
-Ver diferencia entre ficheros en el staging y el repositorio:
+Ver diferencia entre ficheros en el *staging* y el repositorio:
 
 `git diff --staged`
 
@@ -44,13 +44,13 @@ Mover o renombrar archivos:
 
 `git commit -m "Mensaje
 
-# Comandos básicos |||
+# Comandos básicos III
 
 Ver diferencia entre ficheros en el directorio y el repositorio de git:
 
 `git diff`
 
-Ver diferencia entre ficheros en el staging y el repositorio:
+Ver diferencia entre ficheros en el *staging* y el repositorio:
 
 `git diff --staged`
 
@@ -68,13 +68,13 @@ Mover o renombrar archivos:
 
 `git commit -m "Mensaje
 
-# Comandos básicos |||
+# Comandos básicos III
 
 Ver diferencia entre ficheros en el directorio y el repositorio de git:
 
 `git diff`
 
-Ver diferencia entre ficheros en el staging y el repositorio:
+Ver diferencia entre ficheros en el *staging* y el repositorio:
 
 `git diff --staged`
 
@@ -106,11 +106,11 @@ Completar último commit:
 
 `git commit --amend -m "Mensaje"`
 
-Recuperar versión de un fichero de commit antiguo:
+Recuperar versión de un fichero de *commit* antiguo:
 
 `git checkout <id_commit> -- nombre_archivo`
 
-Revertir un commit:
+Revertir un *commit*:
 
 `git revert <id_commit>`
 
@@ -160,15 +160,15 @@ Para más opciones consultar documentación de git.
 
 # Comandos básicos VII
 
-Examinar el contenido de un commit:
+Examinar el contenido de un *commit*:
 
 `git show <id>`
 
-Comparar un commit con el actual:
+Comparar un *commit* con el actual:
 
 `git diff <id> nombre_archivo`
 
-Comparar dos commits:
+Comparar dos *commits*:
 
 `git diff id..id nombre_archivo`
 
@@ -178,7 +178,7 @@ Es la forma para separar la línea actual de desarrollo con respecto a la princi
 
 ![](https://i.stack.imgur.com/mvLUy.png)
 
-# Comandos Ramas |
+# Comandos Ramas I
 
 Ver listado de ramas:
 
@@ -200,7 +200,7 @@ Comparar ramas:
 
 `git diff nombre_rama..nombre_rama`
 
-# Comandos Ramas ||
+# Comandos Ramas II
 
 Ver ramas idénticas a la actual:
 
@@ -225,7 +225,7 @@ Resolver conflictos (se suele hacer manualmente):
 
 `git merge --abort`
 
-# Comandos Ramas |||
+# Comandos Ramas III
 
 Almacenar cambios temporales:
 
@@ -243,7 +243,7 @@ Eliminar un cambio temporal:
 
 `git stash drop nombre_stash`
 
-Aplicar cambio del stash:
+Aplicar cambio del *stash*:
 
 `git stash apply nombre_stash`
 
