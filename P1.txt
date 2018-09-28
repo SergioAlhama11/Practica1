@@ -5,26 +5,26 @@
 Antonio Manuel Durán Rosal
 
 
-Asignatura "Ingeniería del Software"
+**Asignatura "Ingeniería del Software"**
 
 
 
-2º Curso Grado en Ingeniería Informática
+*2º Curso Grado en Ingeniería Informática*
 
 
 
-Escuela Politécnica Superior
+*Escuela Politécnica Superior*
 
 
 
-(Universidad de Córdoba)
+*(Universidad de Córdoba)*
 
 
 
-aduran@uco.es
+*aduran@uco.es*
 
 
-18 de septiembre de 2018
+**18 de septiembre de 2018**
 
 # Contenidos |
 
